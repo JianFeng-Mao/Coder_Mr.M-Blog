@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('./download/font_aa9ibkhylc/iconfont.eot');
+  src: url('./download/font_aa9ibkhylc/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('./download/font_aa9ibkhylc/iconfont.woff2') format('woff2'),
+      url('./download/font_aa9ibkhylc/iconfont.woff') format('woff'),
+      url('./download/font_aa9ibkhylc/iconfont.ttf') format('truetype'),
+      url('./download/font_aa9ibkhylc/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: .9rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-QQ::after{
+  content: '\e625';
+}
+.icon-youxiang::after{
+  content: '\e6be';
+  font-size: .6rem;
+}
+.icon-vx::after{
+  font-size: 1rem;
+  content: '\e608';
+}
