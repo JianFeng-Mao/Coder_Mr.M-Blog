@@ -19,6 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 #FP{
+  overflow: hidden;
   position: absolute;
   left: 0;
   top: 0;

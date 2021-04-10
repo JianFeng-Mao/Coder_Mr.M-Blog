@@ -1,0 +1,472 @@
+@media screen and (max-width: 1200px){
+  html, body{
+    font-size: 15px;
+  }
+  #resume-page{
+    .resume-content{
+      .my-skill{
+        .card-container{
+          &.show{
+            .card{
+              width: 25%;
+            }
+          }
+          .card{
+            width: 10%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px){
+  html, body{
+    font-size: 14px;
+  }
+  .page{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header-nav-list{
+    .right-nav{
+      .nav-menu-bg{
+        &.show-more-menu{
+          width: 40%;
+          .my-card{
+            width: 30%;
+            right: 30px;
+          }
+        }
+      }
+    }
+  }
+  #resume-page{
+    .resume-content{
+      .my-skill{
+        .card-container{
+          height: 990px;
+          .card{
+            width: 12%;
+            height: 15%;
+          }
+          &.show{
+            .card{
+              width: 40%;
+              height: 33%;
+            }
+            .card0{
+              transform: translateX(calc(-50% - 60%)) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card1{
+              transform: translateX(calc(-50% + 60%)) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card2{
+              transform: translate(calc(-50% - 60%), 110%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card3{
+              transform: translate(calc(-50% + 60%), 110%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card4{
+              transform: translate(calc(-50% - 60%), 220%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card5{
+              transform: translate(calc(-50% + 60%), 220%) rotate(0deg) skew(0deg, 0deg);
+            }
+          }
+        }
+      }
+      .my-experience{
+        .time-line-list{
+          .line-item{
+            &:nth-of-type(2n){
+              .line-text{
+                left: -5px;
+              }
+            }
+            .line-text{
+              left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #resume-page{
+    .resume-content{
+      .my-experience{
+        .time-line-list{
+          .line-item{
+            &:nth-of-type(2n){
+              .line-text{
+                left: -15px;
+              }
+            }
+            .line-text{
+              left: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  
+}
+@media screen and (max-width: 800px) {
+  .header-nav-list{
+    .right-nav{
+      .resume-nav-list{
+        display: none;
+      }
+      .show-more-nav{
+        text-align: center;
+        .more-btn{
+          right: 0;
+          transform: translateY(20%);
+        }
+      }
+    }
+  }
+  
+  
+}
+@media screen and (max-width: 768px){
+  html, body{
+    font-size: 13px;
+  }
+  .page{
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .header-nav-list{
+    .right-nav{
+      .nav-menu-bg{
+        &.show-more-menu{
+          width: 50%;
+          .my-card{
+            width: 35%;
+          }
+        }
+      }
+    }
+  }
+  #resume-page{
+    .resume-content{
+      .my-skill{
+        .card-container{
+          height: 950px;
+          .card{
+            width: 15%;
+            height: 15%;
+          }
+          &.show{
+            .card{
+              width: 40%;
+              height: 28%;
+            }
+          }
+        }
+      }
+      .my-experience{
+        .time-line-list{
+          &::before{
+            right: 90% !important;
+          }
+          .line-item{
+            flex-direction: row;
+            text-align: left;
+            &:nth-of-type(2n){
+              flex-direction: row;
+              text-align: right;
+              .line-text{
+                width: 100%;
+                margin: 0 10% 0 10%;
+                left: 5%;
+                text-align: left;
+                &::before{
+                  border-color: transparent;
+                  border-right-color: #29323c;
+                  left: -20px;
+                }
+              }
+              
+            }
+            .line-dot{
+              left: 5%;
+            }
+            .line-text{
+              width: 100%;
+              margin: 0 10% 0 10%;
+              left: 5%;
+            }
+          }
+        }
+      }
+      .call-me{
+        .my-contact{
+          width: 60%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px){
+  html, body{
+    font-size: 12px;
+  }
+  .page{
+    width: 95% !important;
+    margin: 0 auto;
+  }
+  .header-nav-list{
+    .left-content{
+      .rotate-btn{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+      }
+      .text-title{
+        display: none;
+      }
+    }
+    .right-nav{
+      .nav-menu-bg{
+        display: none;
+        &.show-more-menu{
+          display: inline-block;
+          width: 70%;
+          .more-nav-list{
+            right: 5%;
+          }
+          .my-card{
+            width: 50%;
+            right: 35px;
+          }
+        }
+      }
+    }
+  }
+  #resume-page{
+    .resume-content{
+      .my-skill{
+        .card-container{
+          // height: 990px;
+          .card{
+            width: 20%;
+            height: 16%;
+            .content{
+              padding: 15px;
+              .demo-spin-col{
+                height: 70px;
+              }
+            }
+          }
+          &.show{
+            .card{
+              width: 80%;
+              height: 16%;
+            }
+            .card0{
+              transform: translateX(calc(-50%)) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card1{
+              transform: translate(-50%, 112%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card2{
+              transform: translate(-50%, 222%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card3{
+              transform: translate(-50%, 332%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card4{
+              transform: translate(-50%, 442%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card5{
+              transform: translate(-50%, 550%) rotate(0deg) skew(0deg, 0deg);
+            }
+          }
+        }
+      }
+      .my-experience{
+        .time-line-list{
+          &::before{
+            right: 90%;
+          }
+          .line-item{
+            .line-dot{
+              left: 5%;
+            }
+            &:nth-of-type(2n){
+              flex-direction: row;
+              text-align: right;
+              .line-text{
+                left: 10%;
+              }
+            }
+            .line-text{
+              width: 100%;
+              margin: 0 10% 0 10%;
+              left: 10%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .page{
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .header-nav-list{
+    .left-content{
+      .rotate-btn{
+        margin-left: 20px;
+      }
+    }
+    .right-nav{
+      .show-more-nav{
+        .more-btn{
+          margin-right: 20px;
+        }
+      }
+      .nav-menu-bg{
+        &.show-more-menu{
+          width: 80%;
+          .more-nav-list{
+            right: 5%;
+          }
+          .my-card{
+            width: 60%;
+            right: 6%;
+          }
+        }
+      }
+    }
+  }
+  #resume-page{
+    .resume-content{
+      .call-me{
+        .my-contact{
+          width: 300px;
+          .right-top-line,
+          .left-bottom-line{
+            border: none;
+          }
+          .content-jiyu{
+            font-size: 1.5rem;
+          }
+        }
+      }
+      .my-skill{
+        .card-container{
+          height: 670px;
+          .card{
+            width: 20%;
+            height: 16%;
+            .content{
+              padding: 5px 15px;
+              .demo-spin-col{
+                height: 70px;
+              }
+            }
+          }
+          &.show{
+            .card{
+              width: 80%;
+              height: 16%;
+            }
+            .card0{
+              transform: translateX(calc(-50%)) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card1{
+              transform: translate(-50%, 112%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card2{
+              transform: translate(-50%, 222%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card3{
+              transform: translate(-50%, 332%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card4{
+              transform: translate(-50%, 442%) rotate(0deg) skew(0deg, 0deg);
+            }
+            .card5{
+              transform: translate(-50%, 550%) rotate(0deg) skew(0deg, 0deg);
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 370px) {
+  
+  .header-nav-list{
+    .right-nav{
+      .nav-menu-bg{
+        &.show-more-menu{
+          .my-card{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  
+}
+// @media screen and (max-width: 400px){
+//   html, body{
+//     font-size: 12px;
+//   }
+//   .page{
+//     width: 90%;
+//     margin: 0 auto;
+//   }
+// }
+
+// @media screen and (max-width: 1200px) {
+//   .resume-nav-list{
+//     .nav-menu-bg{
+//       &.show-more-menu{
+//         width: 40%;
+//         right: 0;
+//         .my-card{
+//           width: 25%;
+//         }
+//       }
+//     }
+//   }
+// }
+// @media screen and (max-width: 960px) {
+//   .resume-nav-list{
+//     .nav-menu-bg{
+//       &.show-more-menu{
+//         width: 50%;
+//         right: -5%;
+//         .my-card{
+//           width: 25%;
+//         }
+//       }
+      
+//     }
+//   }
+// }
+// @media screen and (max-width: 780px) {
+//   .resume-nav-list{
+//     .nav-menu-bg{
+//       &.show-more-menu{
+//         width: 60%;
+//         right: 0;
+//         .my-card{
+//           width: 45%;
+//         }
+//       }
+//     }
+//   }
+// }

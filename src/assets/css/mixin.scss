@@ -1,0 +1,64 @@
+// 提供各种混合样式
+
+@mixin self-center($pos: absolute) {
+  position: $pos;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin self-fill($pos: absolute) {
+  position: $pos;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin scroll-styles() {
+  &::-webkit-scrollbar {
+    /* 设置滚动条的样式 */
+    width: 12px;
+  }
+  &::-webkit-scrollbar-track {
+    /* 滚动槽 */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #ededed;
+    border-radius: 10px;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    /* 滚动条滑块 */
+    border-radius: 12px;
+    background-color: rgba($color: skyblue, $alpha: 0.5);
+
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+    -webkit-box-shadow: inset 0 0 6px rgba(135, 206, 235, 0.3);
+    &:hover {
+      background-color: rgba($color: rgb(135, 206, 235), $alpha: 1);
+    }
+  }
+  &::-webkit-scrollbar-thumb:window-inactive {
+    // 非激活窗口的状态
+    background-color: skyblue;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+  }
+}

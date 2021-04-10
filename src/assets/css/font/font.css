@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'iconfont';
-  src: url('./download/font_aa9ibkhylc/iconfont.eot');
-  src: url('./download/font_aa9ibkhylc/iconfont.eot?#iefix') format('embedded-opentype'),
-      url('./download/font_aa9ibkhylc/iconfont.woff2') format('woff2'),
-      url('./download/font_aa9ibkhylc/iconfont.woff') format('woff'),
-      url('./download/font_aa9ibkhylc/iconfont.ttf') format('truetype'),
-      url('./download/font_aa9ibkhylc/iconfont.svg#iconfont') format('svg');
+  src: url('./download/font_2266965_ne477rax5hq/iconfont.eot');
+  src: url('./download/font_2266965_ne477rax5hq/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('./download/font_2266965_ne477rax5hq/iconfont.woff2') format('woff2'),
+      url('./download/font_2266965_ne477rax5hq/iconfont.woff') format('woff'),
+      url('./download/font_2266965_ne477rax5hq/iconfont.ttf') format('truetype'),
+      url('./download/font_2266965_ne477rax5hq/iconfont.svg#iconfont') format('svg');
 }
 
 .iconfont {
@@ -21,9 +21,13 @@
 }
 .icon-youxiang::after{
   content: '\e6be';
-  font-size: .6rem;
 }
 .icon-vx::after{
-  font-size: 1rem;
-  content: '\e608';
+  content: '\e60b';
+}
+.icon-gongzuo::after{
+  content: '\e617'
+}
+.icon-xuexi::after{
+  content:'\e62d'
 }

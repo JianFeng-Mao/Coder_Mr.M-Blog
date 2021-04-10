@@ -1,0 +1,41 @@
+.fade-enter-active {
+  // 正在 进入 的状态
+  transform: translateX(10%);
+}
+.fade-leave-active {
+  //正在离开的状态
+  transform: translateX(-10%);
+}
+.fade-enter {
+  // 开始进入状态
+  transform: translateX(20%);
+}
+.fade-leave-to {
+  // 完全离开的状态
+  transform: translateX(-20%);
+}
+.fade-enter-to {
+  // 完全进入
+  transform: translateX(0);
+}
+.fade-leave {
+  // 开始离开的状态
+  transform: translateX(-20%);
+}
+
+.shrink-enter-active,
+.shrink-leave-active {
+  // 正在 进入 的状态 离开
+  max-height: 0;
+}
+
+.shrink-enter,
+.shrink-leave-to {
+  // 开始进入状态 和完全离开
+  max-height: 0;
+}
+.shrink-enter-to,
+.shrink-leave {
+  // 开始进入状态 和完全离开
+  max-height: 2000px;
+}

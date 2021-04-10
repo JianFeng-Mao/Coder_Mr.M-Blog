@@ -1,0 +1,4 @@
+@import '@/assets/css/mixin.scss';
+.loading {
+  @include self-center();
+}
